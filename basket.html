@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="style.css">
+    <title>MAXUS</title>
+</head>
+<body>
+    <main>
+      <header class="p-3 bg-dark text-white " >
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src="img/logo.jpg" alt="" width="80px">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="./index.html#info" class="nav-link px-2 text-white">Назад</a></li>
+            </ul>
+            <div class="text-end">
+              <a type="button" class="btn btn-warning" href="./basket.html" >Корзина</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+      
+    
+
+      <section class="container basket_container">
+    
+        
+
+        <div  id="cart_content"></div>
+        <div class="bottom-btns">
+            <button id="confirm" class="text-black">Оформить заказ</button>
+            <button id="clear_cart" class="text-white">Очистить корзину</button>
+        </div>
+        
+      </section>
+    </main>
+
+    <div class="modal-wrapper">
+      <div class="backet-modal">
+        <button class="btn btn-warning modal-close">Закрыть</button>
+        <div class="modal-title text-white">Ваш заказ на сумму:</div>
+        <div class="modal-price text-warning">89489489</div>
+        <div class="modal-text text-white">Оставьте свой номер телефона, наш сотрудник свяжется с вами, для подтверждения заказа. </div>
+        <input class="input-group-text" type="text" value="+7">
+        <button class="btn btn-warning modal-submit">Отправить</button>
+      </div>
+    </div>
+  
+        
+
+    <script src="basket.js"></script>
+</body>
+</html>

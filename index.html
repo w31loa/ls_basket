@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="style.css">
+    <title>MAXUS</title>
+</head>
+<body>
+     <header class="p-3 bg-dark text-white position-fixed w-100" >
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="img/logo.jpg" alt="" width="80px">
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#intro" class="nav-link px-2 text-secondary">В начало</a></li>
+          <li><a href="#shoes" class="nav-link px-2 text-white">Обувь</a></li>
+          <li><a href="#cloth" class="nav-link px-2 text-white">Одежда</a></li>
+          <li><a href="#acs" class="nav-link px-2 text-white">Аксессуары</a></li>
+        </ul>
+        <div class="text-end">
+          <!-- <button type="button" class="btn btn-warning" id="checkout">Корзина</button> -->
+          <a type="button" class="btn btn-warning" href="./basket.html" >Корзина</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<div class="intro-wrapper" id="intro">
+    <div class="intro">
+        <p class="intro-title text-white">Самые лучшие брендовые вещи только у нас</p>
+        <div class="animated-arrow">
+            <div class="arrow-container">
+              <div class="arrow"></div>
+          <!--     <div class="cover"></div> -->
+            </div>
+            <div class="line-container">
+              <div class="line left"></div>
+              <div class="text">
+                <a href="#info">
+                  Смотреть подробнее
+                </a>
+              </div>
+              <div class="line right"></div>
+            </div>
+          </div>
+    </div>
+</div>
+       
+
+<div class="container justify-content-center d-flex shoes-title"><p class="text-dark-emphasis shoes-text" id="shoes">Обувь</p></div>
+<div class="container d-flex flex-wrap justify-content-around" id="info">
+ 
+    <div class="intro-card"  >  
+        <div class="item_box card-inner">
+
+            <div class="item_img"><img  src="./img/adidas-yeezy.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Кроссовки Adidas Yeezy 500 High <br> Slate</h3> 
+            <p class="item_discription">Цвет: Черный <br>
+              Пол: Женский, Мужской</p>
+            <p class="item_discription">Цена: <span class="item_price">17172</span> ₽</p>
+      
+            <button  class="btn btn-warning add_item"  data-id="11">Добавить в корзину</button> 
+          </div>
+    </div>
+ 
+    <div class="intro-card"  >  
+        <div class="item_box card-inner">
+
+            <div class="item_img"><img  src="./img/nike-jordan.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Кроссовки Nike Air Jordan 1 Low Court <br> Purple</h3>
+            <p class="item_discription">Пол: Женский, Мужской <br>
+              Цвет: Белый, фиолетовый, Черный
+              и</p>
+            <p class="item_discription">Цена: <span class="item_price">15689</span> ₽</p>
+      
+            <button  class="btn btn-warning add_item"  data-id="12">Добавить в корзину</button> 
+          </div>
+    </div>
+ 
+    <div class="intro-card"  >  
+        <div class="item_box card-inner">
+
+            <div class="item_img"><img  src="./img/nike-jordan-retro.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Кроссовки Nike Air Jordan 4 Retro PSG Paris Saint-Germain</h3>
+            <p class="item_discription">Цвет: Белый<br>
+              Пол: Женский, Мужской</p>
+            <p class="item_discription">Цена: <span class="item_price">25150</span> ₽</p>
+      
+            <button  class="btn btn-warning add_item"  data-id="13">Добавить в корзину</button> 
+          </div>
+    </div>
+ 
+    <div class="intro-card"  >  
+        <div class="item_box card-inner">
+
+            <div class="item_img"><img  src="./img/nike-force-1.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Кроссовки Nike Air Force 1 Low White 2018 </h3>
+            <p class="item_discription">Цвет: Белый <br>
+              Пол: Женский, Мужской</p>
+            <p class="item_discription">Цена: <span class="item_price">12868</span> ₽</p>
+      
+            <button  class="btn btn-warning add_item"  data-id="14">Добавить в корзину</button> 
+          </div>
+    </div>
+ 
+    <div class="intro-card"  >  
+        <div class="item_box card-inner">
+
+            <div class="item_img"><img  src="./img/nike-dunk.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Кроссовки Nike Dunk Low SE Easter Candy</h3>
+            <p class="item_discription">Цвет: Мультиколор <br>
+              Пол: Женский, Мужской</p>
+            <p class="item_discription">Цена: <span class="item_price">15228</span> ₽</p>
+      
+            <button  class="btn btn-warning add_item"  data-id="15">Добавить в корзину</button> 
+          </div>
+    </div>
+
+    <div class="intro-card"  >  
+        <div class="item_box card-inner">
+
+            <div class="item_img"><img  src="./img/adidas-alvah.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Кроссовки Adidas Yeezy 700 V3 Alvah</h3>
+            <p class="item_discription">Цвет: Черный <br>
+              Пол: Женский, Мужской</p>
+            <p class="item_discription">Цена: <span class="item_price">34992</span> ₽</p>
+      
+            <button  class="btn btn-warning add_item"  data-id="16">Добавить в корзину</button> 
+          </div>
+    </div>
+
+<div class="container justify-content-center d-flex shoes-title"><p class="text-dark-emphasis shoes-text" id="cloth">Одежда</p></div>
+
+<div class="container d-flex flex-wrap justify-content-around" id="info">
+
+    
+    <div class="intro-card"  >
+        <div class="item_box card-inner">
+            <div class="item_img"><img  src="./img/gucci-shirt.png" width="250px" alt="..."></div>  
+            <h3 class="item_title">Рубашка Gucci поло из шерстяного <br> джерси</h3>
+            <p class="item_discription">Цвет: Черный <br>
+              Пол: Женский, Мужской</p>
+            <p class="item_discription">Цена: <span class="item_price">60948</span> ₽</p>
+            <button  class="btn btn-warning add_item"  data-id="21">Добавить в корзину</button> 
+          </div>
+    </div>
+
+ 
+    <div class="intro-card"  >  
+      <div class="item_box card-inner">
+
+          <div class="item_img"><img  src="./img/lv-pants.png" width="250px" alt="..."></div>  
+          <h3 class="item_title">Джогеры с вышитой подписью Louis <br> Vuitton</h3> 
+          <p class="item_discription">Цвет: Синий <br>
+            Пол: Женский, Мужской</p>
+          <p class="item_discription">Цена: <span class="item_price">102000</span> ₽</p>
+    
+          <button  class="btn btn-warning add_item"  data-id="22">Добавить в корзину</button> 
+        </div>
+  </div>
+  
+ 
+    <div class="intro-card"  >  
+      <div class="item_box card-inner">
+
+          <div class="item_img"><img  src="./img/lv-paper.png" width="250px" alt="..."></div>  
+          <h3 class="item_title">Louis Vuitton укороченный пиджак Paper Airplanes</h3> 
+          <p class="item_discription">Цвет: Черный <br>
+            Пол: Мужской</p>
+          <p class="item_discription">Цена: <span class="item_price">1080000</span> ₽</p>
+    
+          <button  class="btn btn-warning add_item"  data-id="23">Добавить в корзину</button> 
+        </div>
+  </div>
+  
+    <div class="intro-card"  >  
+      <div class="item_box card-inner">
+
+          <div class="item_img"><img  src="./img/lv-shirt.png" width="250px" alt="..."></div>  
+          <h3 class="item_title">Louis Vuitton рубашка стандартного кроя с графикой</h3> 
+          <p class="item_discription">Цвет: Голубой <br>
+            Пол: Мужской, Женский</p>
+          <p class="item_discription">Цена: <span class="item_price">75500</span> ₽</p>
+    
+          <button  class="btn btn-warning add_item"  data-id="24">Добавить в корзину</button> 
+        </div>
+  </div>
+  
+    <div class="intro-card"  >  
+      <div class="item_box card-inner">
+
+          <div class="item_img"><img  src="./img/balenciaga-shirt.png" width="250px" alt="..."></div>  
+          <h3 class="item_title">Balenciaga майка для скейтера голубая оверсайз</h3> 
+          <p class="item_discription">Цвет: Голубой <br>
+            Пол: Мужской</p>
+          <p class="item_discription">Цена: <span class="item_price">93620</span> ₽</p>
+    
+          <button  class="btn btn-warning add_item"  data-id="25">Добавить в корзину</button> 
+        </div>
+  </div>
+  
+    <div class="intro-card"  >  
+      <div class="item_box card-inner">
+
+          <div class="item_img"><img  src="./img/lv-shirt-2.png" width="250px" alt="..."></div>  
+          <h3 class="item_title">Louis Vuitton рубашка DNA из <br> поплина</h3> 
+          <p class="item_discription">Цвет: Черный <br>
+            Пол: Мужской</p>
+          <p class="item_discription">Цена: <span class="item_price">53500</span> ₽</p>
+    
+          <button  class="btn btn-warning add_item"  data-id="26">Добавить в корзину</button> 
+        </div>
+  </div>
+  
+
+  
+
+    
+    
+  
+  
+
+
+</div>
+
+
+<div class="container justify-content-center d-flex shoes-title"><p class="text-dark-emphasis shoes-text" id="acs">Аксессуары</p></div>
+
+<div class="container d-flex flex-wrap justify-content-around" id="info">
+
+
+
+
+  <div class="intro-card"  >  
+    <div class="item_box card-inner">
+      <div class="item_img"><img  src="./img/gucci-bag.png" width="250px" alt="..."></div>  
+      <h3 class="item_title">Gucci Bamboo 1947 миниатюрная сумка из текстиля</h3>
+        <p class="item_discription">Цвет: Черный <br>
+          Пол: Женский</p>
+        <p class="item_discription">Цена: <span class="item_price">153650</span> ₽</p>
+  
+        <button  class="btn btn-warning add_item"  data-id="31">Добавить в корзину</button> 
+      </div>
+</div>
+
+  <div class="intro-card"  >  
+    <div class="item_box card-inner">
+      <div class="item_img"><img  src="./img/lv-bag.png" width="250px" alt="..."></div>  
+      <h3 class="item_title">Louis Vuitton Рюкзак Steamer Monogram Eclipse</h3>
+        <p class="item_discription">Цвет: Черный <br>
+          Пол: Мужской</p>
+        <p class="item_discription">Цена: <span class="item_price">63000</span> ₽</p>
+  
+        <button  class="btn btn-warning add_item"  data-id="32">Добавить в корзину</button> 
+      </div>
+</div>
+
+
+  <div class="intro-card"  >  
+    <div class="item_box card-inner">
+      <div class="item_img"><img  src="./img/lv-org.png" width="250px" alt="..."></div>  
+      <h3 class="item_title">Louis Vuitton Органайзер Zippy Monogram <br> Eclipse</h3>
+        <p class="item_discription">Цвет: Черный <br>
+          Пол: Мужской</p>
+        <p class="item_discription">Цена: <span class="item_price">83500</span> ₽</p>
+  
+        <button  class="btn btn-warning add_item"  data-id="33">Добавить в корзину</button> 
+      </div>
+</div>
+
+
+
+<!-- 
+  <div class="intro-card"  >
+        <div class="card-inner">
+          <img src="./img/lv-pants.jpg" width="250px" alt="...">
+          <div class="under-pic">
+            <h3 class="card-title">Джогеры с вышитой подписью Louis Vuitton</h3>
+            <p class="d-flex justify-content-center"><a href="#" class="btn btn-warning" role="button">Добавить в корзину</a> </p>
+          </div>
+        </div>
+    </div> -->
+</div>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2023 MAXUS, Inc</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+        <li><a href="#" class="nav-link px-2 text-secondary">В начало</a></li>
+        <li><a href="#shoes" class="nav-link px-2 text-secondary">Обувь</a></li>
+        <li><a href="#cloth" class="nav-link px-2 text-secondary">Одежда</a></li>
+        <li><a href="#acs" class="nav-link px-2 text-secondary">Аксессуары</a></li>
+    </ul>
+  </footer>
+</div>
+</div>
+
+<script src="add.js"></script>
+</body>
+</html>
